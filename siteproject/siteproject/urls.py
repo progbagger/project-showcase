@@ -20,6 +20,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
 ]
-urlpatterns += [
-     path('short/', include('shortview.urls')),
-    ]
